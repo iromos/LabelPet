@@ -3,6 +3,7 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="IdProvider" IDEtalkID="12CF7A1D82E5C2BAD3FA61166EA2F0FA" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -30,4 +31,3 @@
     </states>
   </component>
 </project>
-
