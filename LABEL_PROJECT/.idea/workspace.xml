@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defbfeb7-9fda-419e-a78d-7634feb2a418" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabelCore/LabelCore.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabelCore/pom.xml" />
-      <change type="DELETED" beforePath="D:\PetGit\LabelPet\LABEL_PROJECT\LabelDataAccess\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\PetGit\LabelPet\LABEL_PROJECT\LabelDataAccess\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/main/App.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/main/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/Band.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/Band.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/BandDAO.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/BandDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/BandDAOImpl.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/BandDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/utils/HibernateUtil.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/utils/HibernateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entrypoint/LabelDataAccess.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entrypoint/LabelDataAccess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entrypoint/LabelDirectoriesAccess.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entrypoint/LabelDirectoriesAccess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/Release.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/Release.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseDAO.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseDAOImpl.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/keys/ReleaseStylesPK.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/keys/ReleaseStylesPK.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/ReleaseType.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/ReleaseType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseTypeDAO.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseTypeDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseTypeDAOImpl.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleaseTypeDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/ReleasesStyles.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/ReleasesStyles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleasesStylesDAO.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleasesStylesDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleasesStylesDAOImpl.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/ReleasesStylesDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/Style.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/entites/Style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/StyleDAO.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/StyleDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/StyleDAOImpl.class" afterPath="$PROJECT_DIR$/LabelDataAccess/target/classes/dao/StyleDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LABEL_PROJECT.iml" afterPath="$PROJECT_DIR$/LABEL_PROJECT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LabelDataAccess/LabelDataAccess.iml" afterPath="$PROJECT_DIR$/LabelDataAccess/LabelDataAccess.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LabelCore/src/main/java/label/core/parser/LabelXMLParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LabelMultiProject.iws" />
@@ -66,17 +34,27 @@
       <file leaf-file-name="Band.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabelDataAccess/src/main/java/entites/Band.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1207">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabelXMLParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LabelDataAccess/src/main/java/main/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20913884" vertical-offset="0" max-vertical-offset="569">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LabelXMLParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabelCore/src/main/java/label/core/parser/LabelXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3770795" vertical-offset="0" max-vertical-offset="541">
+            <state vertical-scroll-proportion="-7.285714" vertical-offset="0" max-vertical-offset="306">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
@@ -352,6 +330,98 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LABEL_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelMultiProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LABEL_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelDataAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelMultiProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LABEL_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelDataAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelMultiProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LABEL_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelDataAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelMultiProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LABEL_PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabelDataAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,12 +866,19 @@
       <created>1429029240481</created>
       <option name="number" value="Default" />
       <updated>1429029240481</updated>
-      <workItem from="1430993224212" duration="2995000" />
+      <workItem from="1430993224212" duration="4657000" />
     </task>
+    <task id="LOCAL-00001" summary="start core dev">
+      <created>1431006123134</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1431006123134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2995000" />
+    <option name="totallyTimeSpent" value="4657000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -825,12 +902,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -838,11 +916,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1444563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3359288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3359288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4991708" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4991708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -851,7 +929,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50082916" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -900,6 +977,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="start core dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="start core dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -986,6 +1065,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LabelCore/src/main/java/label/core/parser/LabelXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.285714" vertical-offset="0" max-vertical-offset="306">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LabelDataAccess/src/main/java/entites/Band.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1207">
@@ -994,10 +1081,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabelCore/src/main/java/label/core/parser/LabelXMLParser.java">
+    <entry file="file://$PROJECT_DIR$/LabelDataAccess/src/main/java/main/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3770795" vertical-offset="0" max-vertical-offset="541">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20913884" vertical-offset="0" max-vertical-offset="569">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
