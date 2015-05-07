@@ -1,7 +1,0 @@
-dao\BandDAO.class
-entites\Band.class
-dao\ReleasesStylesDAO.class
-entites\ReleaseType.class
-entites\Release.class
-dao\ReleaseTypeDAO.class
-entites\ReleasesStyles.class

@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LABEL_PROJECT.iml" filepath="$PROJECT_DIR$/LABEL_PROJECT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LabelCore/LabelCore.iml" filepath="$PROJECT_DIR$/LabelCore/LabelCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabelDataAccess/LabelDataAccess.iml" filepath="$PROJECT_DIR$/LabelDataAccess/LabelDataAccess.iml" />
     </modules>
   </component>
 </project>
-
