@@ -11,4 +11,17 @@ public class Styles {
     @XmlElement(name = "styles")
     @XmlElementWrapper
     private List<StylePOJO> styles;
+
+    public List<StylePOJO> getStyles() {
+        return styles;
+    }
+
+    public void setStyles(List<StylePOJO> styles) {
+        this.styles = styles;
+    }
+
+    @Override
+    public String toString() {
+        return "Styles=" +  styles;
+    }
 }

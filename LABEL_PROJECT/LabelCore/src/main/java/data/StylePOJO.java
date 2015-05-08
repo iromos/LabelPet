@@ -8,11 +8,12 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement(name = "style")
 public class StylePOJO {
-    @XmlElement(name = "style_id")
+
     private String style;
-    @XmlElement(name = "description")
+
     private String descr;
 
+    @XmlElement(name = "style_id")
     public String getStyle() {
         return style;
     }
@@ -21,11 +22,20 @@ public class StylePOJO {
         this.style = style;
     }
 
+    @XmlElement(name = "description")
     public String getDescr() {
         return descr;
     }
 
     public void setDescr(String descr) {
         this.descr = descr;
+    }
+
+    @Override
+    public String toString() {
+        return "StylePOJO{" +
+                "style=" + style +
+                ", descr=" + descr +
+                '}';
     }
 }

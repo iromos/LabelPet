@@ -13,18 +13,15 @@ import java.util.List;
  */
 @XmlRootElement(name = "band")
 public class BandPOJO {
-    @XmlElement(name = "band_id")
+
     private Integer bandId;
-    @XmlAttribute(name = "return_mode")
     private ReturnMode returnMode;
-    @XmlElement(name = "name")
+    private String key;
     private String name;
-    @XmlElement(name = "country")
     private String country;
-    @XmlElement(name = "releases")
-    @XmlElementWrapper
     private List<ReleasePOJO> releases;
 
+    @XmlElement(name = "band_id")
     public Integer getBandId() {
         return bandId;
     }
@@ -33,6 +30,7 @@ public class BandPOJO {
         this.bandId = bandId;
     }
 
+    @XmlElement(name = "name")
     public String getName() {
         return name;
     }
@@ -41,6 +39,7 @@ public class BandPOJO {
         this.name = name;
     }
 
+    @XmlElement(name = "country")
     public String getCountry() {
         return country;
     }
@@ -49,6 +48,8 @@ public class BandPOJO {
         this.country = country;
     }
 
+    @XmlElement(name = "release")
+    @XmlElementWrapper(name = "releases")
     public List<ReleasePOJO> getReleases() {
         return releases;
     }
@@ -57,11 +58,32 @@ public class BandPOJO {
         this.releases = releases;
     }
 
+    @XmlAttribute(name = "return_mode")
     public ReturnMode getReturnMode() {
         return returnMode;
     }
 
     public void setReturnMode(ReturnMode returnMode) {
         this.returnMode = returnMode;
+    }
+
+    @XmlAttribute(name = "key")
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    @Override
+    public String toString() {
+        return "BandPOJO{" +
+                "bandId=" + bandId +
+                ", returnMode=" + returnMode +
+                ", name=" + name +
+                ", country=" + country +
+                ", releases=" + releases +
+                "}";
     }
 }

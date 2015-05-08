@@ -1,5 +1,6 @@
 package data;
 
+import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -8,22 +9,18 @@ import java.util.List;
 /**
  * Created by Jack on 07.05.2015.
  */
-@XmlRootElement(name = "band")
+@XmlRootElement(name = "release")
 public class ReleasePOJO {
-    @XmlElement(name = "band_id")
+
     private Integer bandId;
-    @XmlElement(name = "release_id")
     private Integer releaseId;
-    @XmlElement(name = "title")
+    private String key;
     private String title;
-    @XmlElement(name = "year")
     private Integer year;
-    @XmlElement(name = "type")
     private String type;
-    @XmlElement(name = "styles")
-    @XmlElementWrapper
     private List<StylePOJO> styles;
 
+    @XmlElement(name = "band_id")
     public Integer getBandId() {
         return bandId;
     }
@@ -32,6 +29,7 @@ public class ReleasePOJO {
         this.bandId = bandId;
     }
 
+    @XmlElement(name = "release_id")
     public Integer getReleaseId() {
         return releaseId;
     }
@@ -40,6 +38,7 @@ public class ReleasePOJO {
         this.releaseId = releaseId;
     }
 
+    @XmlElement(name = "title")
     public String getTitle() {
         return title;
     }
@@ -48,6 +47,7 @@ public class ReleasePOJO {
         this.title = title;
     }
 
+    @XmlElement(name = "year")
     public Integer getYear() {
         return year;
     }
@@ -56,6 +56,7 @@ public class ReleasePOJO {
         this.year = year;
     }
 
+    @XmlElement(name = "type")
     public String getType() {
         return type;
     }
@@ -64,11 +65,34 @@ public class ReleasePOJO {
         this.type = type;
     }
 
+    @XmlElement(name = "style")
+    @XmlElementWrapper(name = "styles")
     public List<StylePOJO> getStyles() {
         return styles;
     }
 
     public void setStyles(List<StylePOJO> styles) {
         this.styles = styles;
+    }
+
+    @XmlAttribute(name = "key")
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    @Override
+    public String toString() {
+        return "ReleasePOJO{" +
+                "bandId=" + bandId +
+                ", releaseId=" + releaseId +
+                ", title=" + title +
+                ", year=" + year +
+                ", type=" + type +
+                ", styles=" + styles +
+                '}';
     }
 }
