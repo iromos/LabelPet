@@ -15,7 +15,7 @@ public interface ReleaseDAO {
      * @param release
      * @throws java.sql.SQLException
      */
-    public void addRelease(Release release) throws SQLException;
+    public Integer addRelease(Release release) throws SQLException;
 
     /**
      * Изменить релиз

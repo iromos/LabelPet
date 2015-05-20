@@ -12,12 +12,16 @@
     <artifactId>LabelCore</artifactId>
 
     <dependencies>
-    <dependency>
-        <groupId>javax</groupId>
-        <artifactId>javaee-web-api</artifactId>
-        <version>6.0</version>
-        <type>jar</type>
-        <scope>provided</scope>
-    </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>6.0</version>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>Mostipan</groupId>
+            <artifactId>LabelDataAccess</artifactId>
+        </dependency>
     </dependencies>
 </project>

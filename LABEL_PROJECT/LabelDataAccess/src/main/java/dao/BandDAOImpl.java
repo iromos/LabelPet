@@ -5,6 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 import utils.HibernateUtil;
 
+import java.io.Serializable;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -19,13 +20,14 @@ public class BandDAOImpl implements BandDAO {
      * @throws java.sql.SQLException
      */
     @Override
-    public void addBand(Band band) throws SQLException {
+    public Integer addBand(Band band) throws SQLException {
         Session session = null;
         try {
             session = HibernateUtil.getSessionFactory().openSession();
             session.beginTransaction();
-            session.save(band);
+            Serializable id = session.save(band);
             session.getTransaction().commit();
+            return (Integer) id;
         } finally {
             if (session != null && session.isOpen()) {
                 session.close();

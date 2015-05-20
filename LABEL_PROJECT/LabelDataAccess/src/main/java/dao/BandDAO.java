@@ -15,7 +15,7 @@ public interface BandDAO {
      * @param band
      * @throws SQLException
      */
-    public void addBand(Band band) throws SQLException;
+    public Integer addBand(Band band) throws SQLException;
 
     /**
      * Изменить группу

@@ -12,6 +12,13 @@
         <module>LabelDataAccess</module>
         <module>LabelCore</module>
     </modules>
-
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>Mostipan</groupId>
+                <artifactId>LabelDataAccess</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

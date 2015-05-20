@@ -6,6 +6,7 @@ import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Restrictions;
 import utils.HibernateUtil;
 
+import java.io.Serializable;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -20,13 +21,14 @@ public class ReleaseDAOImpl implements ReleaseDAO {
      * @throws java.sql.SQLException
      */
     @Override
-    public void addRelease(Release release) throws SQLException {
+    public Integer addRelease(Release release) throws SQLException {
         Session session = null;
         try {
             session = HibernateUtil.getSessionFactory().openSession();
             session.beginTransaction();
-            session.save(release);
+            Serializable releaseId = session.save(release);
             session.getTransaction().commit();
+            return (Integer)releaseId;
         } finally {
             if (session != null && session.isOpen()) {
                 session.close();
