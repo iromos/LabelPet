@@ -53,6 +53,11 @@ public class LabelParserXML implements LabelParser {
         }
     }
 
+    @Override
+    public void close() {
+        ParsersPool.putXMLParser(this);
+    }
+
     private void handleJAXBException(JAXBException ex) throws LabelParserException{
         String message = ex.getMessage();
         if (message == null) {

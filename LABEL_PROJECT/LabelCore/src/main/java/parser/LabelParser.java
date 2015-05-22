@@ -23,4 +23,6 @@ public interface LabelParser {
      * @throws Exception
      */
     void formAnswer(Object pojo, OutputStream outputStream) throws Exception;
+
+    void close();
 }

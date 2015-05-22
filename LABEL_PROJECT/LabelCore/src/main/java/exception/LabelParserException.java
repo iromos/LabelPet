@@ -3,7 +3,7 @@ package exception;
 /**
  * Created by Jack on 07.05.2015.
  */
-public abstract class LabelParserException extends Exception{
+public abstract class LabelParserException extends LabelException{
 
     protected String parserMessage;
 

@@ -1,0 +1,6 @@
+<doc>
+    <DirectoryConfig>
+        <Directory class='directories.storage.ReleaseTypeDirectory' reloadTime='600000' threadName="ReleaseTypeDirectoryLoader" descr='Типы релизов'/>
+        <Directory class='directories.storage.StyleDirectory' reloadTime='600000' threadName="StyleDirectoryLoader" descr='Стили альбомов'/>
+    </DirectoryConfig>
+</doc>

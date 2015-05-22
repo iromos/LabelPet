@@ -8,11 +8,11 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement(name = "release_type")
 public class ReleaseTypePOJO {
-    @XmlElement(name = "type")
+
     private String type;
-    @XmlElement(name = "description")
     private String descr;
 
+    @XmlElement(name = "type")
     public String getType() {
         return type;
     }
@@ -21,6 +21,7 @@ public class ReleaseTypePOJO {
         this.type = type;
     }
 
+    @XmlElement(name = "description")
     public String getDescr() {
         return descr;
     }
