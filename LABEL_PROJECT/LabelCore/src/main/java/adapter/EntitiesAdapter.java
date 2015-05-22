@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class EntitiesAdapter {
 
-    public Band getBandFromPOJO(BandPOJO pojo) {
+    public static Band getBandFromPOJO(BandPOJO pojo) {
         Band band = new Band();
         band.setName(pojo.getName());
         band.setCountry(pojo.getCountry());
@@ -25,7 +25,7 @@ public class EntitiesAdapter {
         return band;
     }
 
-    public List<Band> getBandsFromPOJO(List<BandPOJO> pojoList) {
+    public static List<Band> getBandsFromPOJO(List<BandPOJO> pojoList) {
         List<Band> bands = new ArrayList<Band>(pojoList.size() * 2);
         for (BandPOJO pojo : pojoList) {
             bands.add(getBandFromPOJO(pojo));
@@ -34,7 +34,7 @@ public class EntitiesAdapter {
     }
 
 
-    public Release getReleaseFromPOJO(ReleasePOJO pojo, Integer bandId) {
+    public static Release getReleaseFromPOJO(ReleasePOJO pojo, Integer bandId) {
         Release release = new Release();
         release.setTitle(pojo.getTitle());
         release.setType(pojo.getType());
@@ -46,7 +46,7 @@ public class EntitiesAdapter {
         return release;
     }
 
-    public List<Release> getReleasesFromPOJO(List<ReleasePOJO> pojoList, Integer bandId) {
+    public static List<Release> getReleasesFromPOJO(List<ReleasePOJO> pojoList, Integer bandId) {
         List<Release> releases = new ArrayList<Release>(pojoList.size() * 2);
         for (ReleasePOJO pojo : pojoList) {
             releases.add(getReleaseFromPOJO(pojo, bandId));
@@ -54,7 +54,7 @@ public class EntitiesAdapter {
         return releases;
     }
 
-    public List<ReleasesStyles> getReleaseStylesFromPOJO(ReleasePOJO pojo, Integer releaseId) {
+    public static List<ReleasesStyles> getReleaseStylesFromPOJO(ReleasePOJO pojo, Integer releaseId) {
         List<ReleasesStyles> styles = new ArrayList<ReleasesStyles>();
         Integer id = chooseId(pojo.getReleaseId(), releaseId);
         for (StylePOJO stylePOJO : pojo.getStyles()) {
@@ -64,14 +64,14 @@ public class EntitiesAdapter {
         return styles;
     }
 
-    public ReleasesStyles formStyle(String style, Integer releaseId) {
+    public static ReleasesStyles formStyle(String style, Integer releaseId) {
         ReleasesStyles releasesStyle = new ReleasesStyles();
         releasesStyle.setStyle(style);
         releasesStyle.setReleaseId(releaseId);
         return releasesStyle;
     }
 
-    private Integer chooseId(Integer fromPojo, Integer standalone) {
+    private static Integer chooseId(Integer fromPojo, Integer standalone) {
         if (standalone == null) {
             return fromPojo;
         }

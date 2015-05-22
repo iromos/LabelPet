@@ -1,32 +1,17 @@
-package data;
+package exception;
 
-import exception.LabelException;
-
-import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Jackson on 08.05.2015.
+ * Created by Jackson on 22.05.2015.
  */
 @XmlRootElement(name = "doc")
-public class Bands {
-
-    private List<BandPOJO> bands;
+public class ExceptionAnswer {
     private List<LabelException> exceptions;
-
-    @XmlElement(name = "band")
-    @XmlElementWrapper(name = "bands")
-    public List<BandPOJO> getBands() {
-        return bands;
-    }
-
-    public void setBands(List<BandPOJO> bands) {
-        this.bands = bands;
-    }
-
 
     @XmlElement(name = "LabelError")
     @XmlElementWrapper(name = "Errors")
@@ -38,8 +23,10 @@ public class Bands {
         this.exceptions = exceptions;
     }
 
-    @Override
-    public String toString() {
-        return "Bands=" + bands;
+    public void addException(LabelException ex) {
+        if (exceptions == null) {
+            exceptions = new ArrayList<LabelException>();
+        }
+        exceptions.add(ex);
     }
 }
